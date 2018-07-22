@@ -42,13 +42,3 @@ nnoremap <C-h> b
 nnoremap <C-l> w
 nnoremap <C-k> <C-u>
 nnoremap <C-j> <C-d>
-
-augroup vimrc_change_cursorline_color
-    autocmd!
-    " インサートモードに入った時にカーソル行の色をブルーグリーンにする
-    "autocmd InsertEnter * highlight CursorLine ctermbg=green
-    autocmd InsertEnter * hi CursorLineNr ctermbg = 11 ctermfg = 0
-    autocmd InsertLeave * hi CursorLineNr ctermbg = 235 ctermfg = 243
-augroup END
-
-"runtime! userautoload/color.vim
