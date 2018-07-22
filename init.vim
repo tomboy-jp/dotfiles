@@ -24,9 +24,9 @@ set listchars=tab:»\ ,trail:-,extends:»,precedes:«,nbsp:% "space 対応"
 set expandtab "タブ入力を複数の空白入力に置き換える"
 set smartindent "改行時に入力された行の末尾に合わせて次の行のインデントを増減する"
 set autoindent "改行時に前の行のインデントを継続する"
-set tabstop=4 "タブ幅
-set softtabstop=4 "タブ幅(入力時)
-set shiftwidth=4 "タブ幅(読み込み時)
+set tabstop=4 "タブ幅"
+set softtabstop=4 "タブ幅(入力時)"
+set shiftwidth=4 "タブ幅(読み込み時)"
 set termguicolors "色を綺麗にする"
 
 colorscheme monokai
@@ -34,8 +34,7 @@ colorscheme monokai
 let g:AutoClosePumvisible = {"ENTER": "<C-Y>", "ESC": "<ESC>"} "DeopleteでESCをmappingする
 
 inoremap <silent> jj <ESC>
-"jjをESC割り当て"
-nnoremap Y y$ "Yをy$と解釈"
+nnoremap Y y$
 nnoremap <C-a> ^
 nnoremap <C-e> $
 nnoremap <C-h> b
