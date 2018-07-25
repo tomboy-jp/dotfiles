@@ -20,11 +20,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 # 日本語ファイル名を表示可能にする
 setopt print_eight_bit
 
-# ヒストリの設定
-HISTFILE=~/.zsh_history
-HISTSIZE=1000000
-SAVEHIST=1000000
-
 # ( ^ω^)つPROMPT
 autoload -Uz vcs_info
 setopt prompt_subst
